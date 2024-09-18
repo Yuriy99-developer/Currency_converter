@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    align-content: center;
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.converter-block {
+    width: 530px;
+    height: 183px;
+    border: 1px solid black;
+}
+
+.text1 {
+    margin-right: 20px;
+}
+
+.button {
+    background: #f00;
+    border: none;
+    border-radius: 12px;
+    width: 136px;
+    height: 34px;
+}
+
+.text2 {
+    margin-left: 20px;
+}

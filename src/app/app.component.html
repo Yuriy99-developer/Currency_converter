@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Конвертер валют</title>
+  </head>
+  <body>
+    <div class="converter-block">
+      <h1 class="Caption">Конвертер валют</h1>
+      <input type="text" class="text1" value="30" />
+      <input type="button" onclick="myFunction()" class="button" value="Розрахувати"/>
+      <input type="text" class="text2" value=""/>
+    </div>
+    <script>
+      function myFunction() {
+        const y1 = 41;
+        const element1 = document.getElementsByTagName("div")[0];
+        const x2 = element1.getElementsByClassName("text1")[0].value;
+        
+        element1.getElementsByClassName("text2")[0].value = y1*x2;
+      }
+    </script>
+  </body>
+</html>
